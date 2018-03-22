@@ -1,0 +1,148 @@
+fieldset {
+    background: #DDD;
+    padding: 10px;
+    border: 1px solid;
+}
+
+legend {
+    background: #F5F5F5;
+    padding: 10px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    font-size: 2rem;
+
+}
+
+
+
+.name {
+    width: 100%;
+}
+
+.email {
+    width: 100%;
+}
+
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+
+input#full-name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea#message {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+input#button-input {
+    width: 100%;
+    background: #6495ED;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input#button-input:hover {
+    width: 100%;
+    background-color: darkturquoise;
+
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 25rem) .name {
+    width: 100%;
+    padding-right: 2px;
+}
+
+.email {
+    padding-left: 2px;
+}
+
+
+
+input#full-name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+input#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+}
+
+@media only screen and (min-width:25rem and 40rem) {
+    .name {
+        float: left;
+        width: 50%;
+        padding-right: 2px;
+    }
+
+    .email {
+        float: right;
+        width: 50%;
+        padding-left: 2px;
+    }
+}
+
+@media only screen and (min-width: 50rem) {
+
+    .main{
+        width: 90%;
+        align-content: center;
+        margin: auto;
+    }
+    .name {
+        float: left;
+        width: 48%;
+        padding-right: 2px;
+    }
+
+    .email {
+        float: right;
+        width: 48%;
+        padding-left: 2px;
+    }
